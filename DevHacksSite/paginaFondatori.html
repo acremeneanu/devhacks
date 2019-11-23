@@ -1,10 +1,24 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
+<head>
+    <title>Daynesh's Test Site</title>
+<script>
+
+    function addUser(first, last)
+    {
+	map.set(1,first);
+    alert("Hello " + map.get(1);
+	
+    }
+</script>
+</head> 
 <body>
-
-<p>
-Pagina Fondatori
-</p>
-
+<h1>Registered Users</h1>
+<p>Enter user name:</p>
+<form>First name: <input type="text" name="firstname" id="firstname">
+  Last name: <input type="text" name="lastname">
+    <input type="submit" value="Submit" onclick="addUser(document.getElementById('firstname').value,'right')">
+</form>
+<hr>
 </body>
 </html>
